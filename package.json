@@ -1,0 +1,15 @@
+{
+  "name": "pdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rttll/pdf.git",
+  "author": "rttll <adrianxyz@proton.me>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx functions-framework --target=pdf --port=3333 [--signature-type=http]"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.1.2",
+    "puppeteer": "^19.0.0"
+  }
+}
